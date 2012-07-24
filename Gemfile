@@ -12,7 +12,7 @@ gem 'rails', '3.0.12'
 #  gem 'sqlite3'
 #end
 
-gem 'sqlite3'
+gem 'sqlite3', :group => [:development, :test]
 
 # Use unicorn as the web server
 # gem 'unicorn'
